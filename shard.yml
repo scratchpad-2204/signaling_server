@@ -1,0 +1,22 @@
+name: signaling_server
+version: 0.1.0
+
+authors:
+  - Peter <pwood@protonmail.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  redis:
+    github: stefanwille/crystal-redis
+    version: ~> 2.6.0
+  totem:
+    github: icyleaf/totem
+
+targets:
+  signaling_server:
+    main: src/signaling_server.cr
+
+crystal: 0.35.1
+
+license: MIT
