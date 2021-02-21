@@ -7,8 +7,6 @@ require "./configuration"
 require "./exceptions"
 require "./parameter_helpers"
 require "./utilities"
-require "./member"
-require "./group"
 require "./routes"
 
 begin
